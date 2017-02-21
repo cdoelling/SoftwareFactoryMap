@@ -1,0 +1,210 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding-top:80px;
+}
+.name {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1em;
+  margin-top: -160px;
+  padding-bottom: 20px,
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.logo button {
+  background-color: #fff;
+  border: none;
+}
+
+.logo img {
+  border: none;
+}
+
+
+.directions {
+  position: absolute;
+  top: 9px;
+  left: 165px;
+}
+
+.directions h3 {
+  font-family: 'Coming Soon',cursive;
+  font-size: .9em;
+  color: #696969;
+}
+
+.arrow {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+/*.menu {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding-right: 15px;
+}
+.menu button {
+  background-color: #fff;
+  border: none;
+}*/
+
+header {
+  z-index: 50;
+}
+
+header a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+
+.main-header {
+  padding: 25px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  transition: all 0.5s ease;
+  a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 32px;
+  }
+}
+
+.page-wrap {
+  float: left;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.main-nav {
+  position: absolute;;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: #f2f2f2;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  z-index: 100;
+}
+
+
+  .main-nav a {
+    display: block;
+    color: white;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #269da4;
+
+}
+
+.x-close {
+  text-align: right;
+  margin-top: -30px;
+  padding-right: 20px;
+}
+
+.main-nav a:hover {
+}
+
+
+.main-nav a:focus {
+}
+
+.open-menu {
+  position: absolute;
+  top: -65px;
+  right: 50px;
+  color: black;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+
+}
+.close-menu {
+  display: none;
+  position: absolute;
+  top: -65px;
+  right: 50px;
+  color: black;
+  font-size: 2em;
+}
+
+
+#main-nav:target {
+  width: 20%;
+}
+#main-nav:target + .page-wrap {
+  width: 80%;
+}
+
+#main-nav:target {
+  .open-menu {
+    display: none;
+  }
+  /*.close-menu {
+    display: block;
+  }*/
+
+  .main-header {
+    width: 80%;
+    right: 20%;
+  }
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul li button {
+  border: none;
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2em;
+  background: none;
+}
+
+
+a:hover + .nav-ins{
+  display: block;
+}
+
+.add a {
+  display: block;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  background: black;
+}
+
+
+/*MAP CSS*/
+
+
+#map {
+  height: 100%;
+}

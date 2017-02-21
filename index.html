@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+  <link href='heat.css' rel="stylesheet" type="text/css">
+  <title>Dev HeatMap</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+</head>
+  <body>
+<!-- Initialize Map  -->
+    <div class="name"><h1>Developer Heat Map</h1></div>
+    <div class="logo"><button onclick="toggleHeatmap()"><img src="https://d2q79iu7y748jz.cloudfront.net/s/_logo/876598d9ef758c2996f42f218dd7a52b.png" height="85" width="100"></button></div>
+    <!-- <div class="menu">
+      <button onclick="slideout-menu-toggle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ei-navicon.svg/1000px-Ei-navicon.svg.png" height="70" width:="70"></button>
+    </div> -->
+    <div class="directions"><h3>Toggle CA Sites</h3></div>
+    <div class="arrow"><img src="http://image005.flaticon.com/1/png/512/64/64783.png" height="50" width="50"></div>
+
+  <!-- <div class="page-wrap"> -->
+    <header class="main-header">
+      <a href="#main-nav" class="open-menu">
+        ☰
+      </a>
+      <a href="#" class="close-menu">
+        ☰
+      </a>
+    </header>
+  <!-- </div> -->
+
+    <nav class="main-nav" id="main-nav">
+
+      <div class="add"><a href="mailto:chase.doelling@ca.com">+ ADD COMPANY</a></div>
+
+      <a href="#">Insurance <div class="x-close">[X]</div></a>
+        <ul>
+          <li><button onclick="toggleAIG()">AIG</button></li>
+          <li><button onclick="toggleAll()">ALL STATE</button></li>
+          <li><button onclick="toggleAmFam()">AMERICAN FAMILY</button></li>
+          <li><button onclick="toggleCigna()">CIGNA</button></li>
+          <li><button onclick="toggleVA()">Dept. VA</button></li>
+          <li><button onclick="toggleKaiser()">KAISER</button></li>
+          <li><button onclick="toggleLM()">LIBERTY MUTUAL</button></li>
+          <li><button onclick="toggleMet()">METLIFE</button></li>
+          <li><button onclick="toggleUH()">UNITED HEALTH</button></li>
+        </ul>
+
+      <a href="#">Financial Services<div class="x-close">[X]</div></a>
+        <ul>
+          <li><button onclick="toggleAMEX()">AMEX</button></li>
+          <li><button onclick="toggleBOA()">BANK OF AMERICA</button></li>
+          <li><button onclick="toggleBNP()">BNP PARIBAS</button></li>
+          <li><button onclick="toggleCS()">CHARLES SCHWAB</button></li>
+          <li><button onclick="toggleFidelity()">FIDELITY</button></li>
+          <li><button onclick="toggleJP()">JP MORGAN CHASE</button></li>
+          <li><button onclick="toggleMS()">MORGAN STANLEY</button></li>
+          <li><button onclick="toggleRBS()">RBS</button></li>
+          <li><button onclick="toggleSAN()">BANCO SANTANDER</button></li>
+          <li><button onclick="toggleWF()">WELLS FARGO</button></li>
+        </ul>
+
+
+      <a href="#">Manufacturing<div class="x-close">[X]</div></a>
+        <ul class="">
+          <li><button onclick="toggle3M()">3M</button></li>
+          <li><button onclick="toggleCOKE()">COCA-COLA</button></li>
+          <li><button onclick="toggleDIAMLER()">DIAMLER AG</button></li>
+          <li><button onclick="toggleHIT()">HITATCHI</button></li>
+          <li><button onclick="toggleJJ()">JOHNSON & JOHNSON</button></li>
+          <li><button onclick="toggleLockheed()">LOCKHEED MARTIN</button></li>
+          <li><button onclick="togglePfizer()">PFIZER</button></li>
+          <li><button onclick="toggleSamsung()">SAMSUNG</button></li>
+          <li><button onclick="toggleBD()">STANLEY BLACK&DECKER</button></li>
+          <li><button onclick="toggleVW()">VOLKSWAGEN</button></li>
+        </ul>
+
+      <a href="#">Energy<div class="x-close">[X]</div></a>
+        <ul>
+          <li><button onclick="toggleBP()">BP</button></li>
+          <li><button onclick="toggleChevron()">CHEVRON</button></li>
+          <li><button onclick="toggleExxon()">EXXON</button></li>
+          <li><button onclick="toggleHess()">HESS</button></li>
+          <li><button onclick="togglePetroChina()">PETRO CHINA</button></li>
+          <li><button onclick="toggleP66()">PHILLIPS 66</button></li>
+          <li><button onclick="toggleStatoil()">STATOIL</button></li>
+          <li><button onclick="toggleTotal()">TOTAL</button></li>
+          <li><button onclick="toggleValero()">VALERO</button></li>
+        </ul>
+
+      <a href="#">Retail<div class="x-close">[X]</div></a>
+      <ul>
+        <li><button onclick="toggleEstee()">ESTEE LAUDER</button></li>
+        <li><button onclick="toggleJC()">JC PENNEY</button></li>
+        <li><button onclick="toggleKroger()">KROGER</button></li>
+        <li><button onclick="toggleLowes()">LOWES</button></li>
+        <li><button onclick="toggleQVC()">QVC</button></li>
+        <li><button onclick="toggleSafeway()">SAFEWAY</button></li>
+        <li><button onclick="toggleSEARS()">SEARS</button></li>
+        <li><button onclick="toggleTarget()">TARGET</button></li>
+        <li><button onclick="toggleTESCO()">TESCO</button></li>
+        <li><button onclick="toggleWalMart()">WAL-MART</button></li>
+      </ul>
+      <a href="#">Technology<div class="x-close">[X]</div></a>
+      <ul>
+        <li><button onclick="toggleApple()">APPLE</button></li>
+        <li><button onclick="toggleAmazon()">AMAZON</button></li>
+        <li><button onclick="toggleAtlassian()">ATLASSIAN</button></li>
+        <li><button onclick="toggleConcur()">CONCUR</button></li>
+        <li><button onclick="toggleDell()">DELL</button></li>
+        <li><button onclick="toggleHuawei()">HUAWEI</button></li>
+        <li><button onclick="toggleIntel()">INTEL</button></li>
+        <li><button onclick="toggleNetApp()">NETAPP</button></li>
+        <li><button onclick="toggleNetflix()">NETFLIX</button></li>
+        <li><button onclick="toggleSalesForce()">SALESFORCE</button></li>
+      </ul>
+      <a href="#">Telecom<div class="x-close">[X]</div></a>
+      <ul>
+        <li><button onclick="toggleATT()">ATT</button></li>
+        <li><button onclick="toggleCentury()">CENTURY LINK</button></li>
+        <li><button onclick="toggleChina()">CHINA MOBILE</button></li>
+        <li><button onclick="toggleTelekom()">DEUTSCHE TELEKOM</button></li>
+        <li><button onclick="toggleSprint()">SPRINT</button></li>
+        <li><button onclick="toggleSwisscom()">SWISSCOM</button></li>
+        <li><button onclick="toggleTmobile()">T MOBILE</button></li>
+        <li><button onclick="toggleTelstra()">TELSTRA</button></li>
+        <li><button onclick="toggleVerizon()">VERIZON</button></li>
+      </ul>
+      <a href="#">Transportation<div class="x-close">[X]</div></a>
+      <ul>
+        <li><button onclick="toggleBNSF()">BNSF</button></li>
+        <li><button onclick="toggleBRAir()">BRUSSELS AIR</button></li>
+        <li><button onclick="toggleFEDEX()">FEDEX</button></li>
+        <li><button onclick="toggleHertz()">HERTZ</button></li>
+        <li><button onclick="toggleJet()">JETBLUE</button></li>
+        <li><button onclick="toggleLyft()">LYFT</button></li>
+        <li><button onclick="toggleSW()">SOUTHWEST AIR</button></li>
+        <li><button onclick="toggleUBER()">UBER</button></li>
+        <li><button onclick="toggleUPS()">UPS</button></li>
+        <li><button onclick="toggleUnited()">UNITED</button></li>
+      </ul>
+      <a href="#">Utilities<div class="x-close">[X]</div></a>
+      <ul>
+        <li><button onclick="toggleCenter()">CENTERPOINT</button></li>
+        <li><button onclick="toggleEversource()">EVERSOURCE</button></li>
+        <li><button onclick="toggleExelon()">EXELON</button></li>
+        <li><button onclick="toggle1energy()">FIRST ENERGY</button></li>
+        <li><button onclick="toggleHyrdo()">HYDRO QUEBEC</button></li>
+        <li><button onclick="togglePiedmont()">PIEDMONT GAS</button></li>
+        <li><button onclick="togglePortland()">PORTLAND ELECTRIC</button></li>
+        <li><button onclick="toggleScana()">SCANA</button></li>
+        <li><button onclick="toggleSWGAS()">SOUTHWEST GAS</button></li>
+        <li><button onclick="toggleXCEL()">XCEL ENERGY</button></li>
+      </ul>
+    </nav>
+
+
+    <div id="map"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcsfXQxhLfiNUNU1kM12ed0znFA-k8qZA&libraries=visualization"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+  </body>
+</html>
