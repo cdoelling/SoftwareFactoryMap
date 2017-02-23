@@ -62,7 +62,7 @@
 
     map = new google.maps.Map(document.getElementById('map'), {
       center: island,
-      zoom: 2,
+      zoom: 3,
           });
 
     map.setOptions({styles: styles});
@@ -80,25 +80,20 @@
   }
 
 
-//-------- INSURANCE LIST --------------
+//-------- AGILE LIST --------------
 
-// AIG
-var insAIG = [
-  {location: new google.maps.LatLng(40.7052643,-74.0053388), weight: 8},
-  {location: new google.maps.LatLng(14.4300988,120.9777254), weight: 3},
-  {location: new google.maps.LatLng(32.9034204,-97.1788402), weight: 3},
-  {location: new google.maps.LatLng(12.991114,77.727998), weight: 2}
+// AMEX
+var amex = [
+  {location: new google.maps.LatLng(33.6584628,-111.9628393)},
 ]
 
-var heatmapAIG = new google.maps.visualization.HeatmapLayer({
-  data: insAIG,
-  radius: 20,
-});
-heatmapAIG.setMap(null);
+var marker = new google.maps.Marker({
+          position: amex,
+          map: map,
+          title: 'AMEX'
+        });
 
-function toggleAIG() {
-heatmapAIG.setMap(heatmapAIG.getMap() ? null : map);
-}
+
 
 // All State
 var insAllState = [
@@ -248,27 +243,7 @@ heatmapUH.setMap(heatmapUH.getMap() ? null : map);
 }
 
 
-// -------------------FINANCIAL SERVICES-------------------
 
-// AMEX
-
-var finAMEX = [
-  {location: new google.maps.LatLng(33.6643525,-112.1292396), weight: 13},
-  {location: new google.maps.LatLng(40.7018408,-74.3260548), weight: 2},
-  {location: new google.maps.LatLng(25.8414667,-80.3713233), weight: 2},
-  {location: new google.maps.LatLng(28.6353127,77.2227713), weight: 2},
-  {location: new google.maps.LatLng(28.4898629,77.0898065), weight: 2},
-]
-
-var heatmapAMEX = new google.maps.visualization.HeatmapLayer({
-  data: finAMEX,
-  radius: 20,
-});
-heatmapAMEX.setMap(null);
-
-function toggleAMEX() {
-heatmapAMEX.setMap(heatmapAMEX.getMap() ? null : map);
-}
 
 // BANK OF AMERICA
 
