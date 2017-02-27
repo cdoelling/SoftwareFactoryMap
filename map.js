@@ -124,10 +124,18 @@
 
 // AMEX
 var amex = {lat:33.6584628,lng:-111.9628393};
-var marker = new google.maps.Marker({
-          position: amex,
-          map: map,
-        });
+var marker = new google.maps.Marker({position: amex,map: map,});
+
+// >>>>>
+var amgen = {lat:34.1921405,lng:-118.9216709};
+var marker = new google.maps.Marker({position: amgen, map: map,});
+// >>>>>
+// >>>>>
+var amgen = {lat:34.1921405,lng:-118.9216709};
+var marker = new google.maps.Marker({position: amgen, map: map,});
+// >>>>>
+
+
 
 // __________________BUILD FASTER APPS____________________
 
