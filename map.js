@@ -123,41 +123,18 @@
 
 
 
+
 //-------- AGILE LIST --------------
 
 // AMEX
 var amex = {lat:33.6584628,lng:-111.9628393};
 var markeramex = new google.maps.Marker({position: amex, map: map,icon:'dashboard.svg'});
-var contentString = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-      '<div id="bodyContent">'+
-      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-      'sandstone rock formation in the southern part of the '+
-      'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-      'south west of the nearest large town, Alice Springs; 450&#160;km '+
-      '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-      'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-      'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-      'Aboriginal people of the area. It has many springs, waterholes, '+
-      'rock caves and ancient paintings. Uluru is listed as a World '+
-      'Heritage Site.</p>'+
-      '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-      'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-      '(last visited June 22, 2009).</p>'+
-      '</div>'+
-      '</div>';
-
-
-var amexinfo = new google.maps.InfoWindow({content: contentString});
-markeramex.addListener('click', function() {
-  infowindow.open(map, markeramex);
-});
+var amexinfo = new google.maps.InfoWindow({content: 'AMEX'});
+markeramex.addListener('click', function() {amexinfo.open(map, markeramex);});
 
 // >>>>>
 var amgen = {lat:34.1921405,lng:-118.9216709};
-var marker = new google.maps.Marker({position: amgen, map: map,icon: "dashboard.svg",});
+var markeramgen = new google.maps.Marker({position: amgen, map: map,icon: "dashboard.svg",});
 // >>>>>
 // >>>>>
 var boa = {lat:35.2275026,lng:-80.8441752};
@@ -610,7 +587,7 @@ var aig = {lat:40.7052639,lng:-74.0077088};
 var marker = new google.maps.Marker({position: aig, map: map,icon:'repo-forked.svg'});
 // >>>>>
 // >>>>>
-var marker = new google.maps.Marker({position: amex, map: map,icon:'repo-forked.svg'});
+var marker = new google.maps.Marker({position: markeramex, map: map,icon:'repo-forked.svg'});
 // >>>>>
 // >>>>>
 var broadridge = {lat:40.7551912,lng:-73.6974465};
