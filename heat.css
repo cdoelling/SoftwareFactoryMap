@@ -201,6 +201,9 @@ a:hover + .nav-ins{
   background: black;
 }
 
+button{
+  border: none;
+}
 
 /*MAP CSS*/
 
