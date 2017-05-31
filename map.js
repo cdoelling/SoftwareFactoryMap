@@ -717,198 +717,198 @@ var wellsinfo = new google.maps.InfoWindow({content: 'Wells-Fargo'});
 wellsmarker.addListener('click', function() {wellsinfo.open(map, wellsmarker);});
 
 
-// __________________BUILD FASTER APPS____________________
-
-var westpac = {lat:-33.8660344,lng:151.2016745};
-var westpacmarker = new google.maps.Marker({position: westpac, map: map,icon: "device-mobile.png"});
-var westpacinfo = new google.maps.InfoWindow({content: 'westpac'});
-westpacmarker.addListener('click', function() {westpacinfo.open(map, westpacmarker);});
-
-
-
-var liberty = {lat:52.2775552,lng:4.7469156};
-var libertymarker = new google.maps.Marker({position: liberty, map: map,icon: "device-mobile.png"});
-var libertyinfo = new google.maps.InfoWindow({content: 'Liberty'});
-libertymarker.addListener('click', function() {libertyinfo.open(map, libertymarker);});
-
-
-
-var experian = {lat:33.084906,lng:-96.6833492};
-var experianmarker = new google.maps.Marker({position: experian, map: map,icon: "device-mobile.png"});
-var experianinfo = new google.maps.InfoWindow({content: 'Experian'});
-experianmarker.addListener('click', function() {experianinfo.open(map, experianmarker);});
-
-var firstdata = {lat:33.9055143,lng:-84.362277};
-var firstdatamarker = new google.maps.Marker({position: firstdata, map: map,icon: "device-mobile.png"});
-var firstdatainfo = new google.maps.InfoWindow({content: 'Firstdata'});
-firstdatamarker.addListener('click', function() {firstdatainfo.open(map, firstdatamarker);});
-
-var ford = {lat:42.3174407,lng:-83.2116834};
-                        //
-var fordmarker = new google.maps.Marker({position: ford, map: map,icon: "device-mobile.png"});
-var fordinfo = new google.maps.InfoWindow({content: 'Ford'});
-fordmarker.addListener('click', function() {fordinfo.open(map, fordmarker);});
-
-var westernunion = {lat:39.5466043,lng:-104.8467667};
-                        //
-var westernunionmarker = new google.maps.Marker({position: westernunion, map: map,icon: "device-mobile.png"});
-var westernunioninfo = new google.maps.InfoWindow({content: 'Western Union'});
-westernunionmarker.addListener('click', function() {westernunioninfo.open(map, westernunionmarker);});
-
-
-// ------------------SECURE ACCESS----------------------
-
-// >>>>>
-var bnp = {lat:48.8717555,lng:2.335482};
-var bnpmarker = new google.maps.Marker({position: bnp, map: map,icon: "lock.png"});
-var bnpinfo = new google.maps.InfoWindow({content: 'BNP Paribas'});
-bnpmarker.addListener('click', function() {bnpinfo.open(map, bnpmarker);});
-// >>>>>
-// >>>>>
-var evry = {lat:59.8997876,lng:10.6255937};
-var evrymarker = new google.maps.Marker({position: evry, map: map,icon: "lock.png"});
-var evryinfo = new google.maps.InfoWindow({content: 'Evry'});
-evrymarker.addListener('click', function() {evryinfo.open(map, evrymarker);});// >>>>>
-// >>>>>
-var iccrea = {lat:41.8317007,lng:12.5767312};
-var iccreamarker = new google.maps.Marker({position: iccrea, map: map,icon: "lock.png"});
-var iccreainfo = new google.maps.InfoWindow({content: 'Iccrea'});
-iccreamarker.addListener('click', function() {iccreainfo.open(map, iccreamarker);});// >>>>>
-// >>>>>
-var ministro = {lat:41.8997054,lng:12.4925701};
-var ministromarker = new google.maps.Marker({position: ministro, map: map,icon: "lock.png"});
-var ministroinfo = new google.maps.InfoWindow({content: 'Ministro ITL'});
-ministromarker.addListener('click', function() {ministroinfo.open(map, ministromarker);});
-// >>>>>
-// >>>>>
-var telefonica = {lat:40.4200003,lng:-3.7040966};
-var telefonicamarker = new google.maps.Marker({position: telefonica, map: map,icon: "lock.png"});
-var telefonicainfo = new google.maps.InfoWindow({content: 'Telefonica'});
-telefonicamarker.addListener('click', function() {telefonicainfo.open(map, telefonicamarker);});// >>>>>
-// >>>>>
-var cox = {lat:33.9234972,lng:-84.3520734};
-var coxmarker = new google.maps.Marker({position: cox, map: map,icon: "lock.png"});
-var coxinfo = new google.maps.InfoWindow({content: 'Cox'});
-coxmarker.addListener('click', function() {coxinfo.open(map, coxmarker);});
-// >>>>>
-// >>>>>
-var fedex = {lat:35.0397384,lng:-89.9920365};
-var fedexmarker = new google.maps.Marker({position: fedex, map: map,icon: "lock.png"});
-var fedexinfo = new google.maps.InfoWindow({content: 'Fedex'});
-fedexmarker.addListener('click', function() {fedexinfo.open(map, fedexmarker);});
-// >>>>>
-// >>>>>
-var marker = new google.maps.Marker({position: firstdata, map: map, icon: 'lock.png'});
-// >>>>>
-// >>>>>
-var hms = {lat:32.8885184,lng:-96.974342};
-var hmsmarker = new google.maps.Marker({position: hms, map: map,icon: "lock.png"});
-var hmsinfo = new google.maps.InfoWindow({content: 'HMS'});
-hmsmarker.addListener('click', function() {hmsinfo.open(map, hmsmarker);});
-// >>>>>
-// >>>>>
-var lexmark = {lat:38.072593,lng:-84.4933229};
-var lexmarkmarker = new google.maps.Marker({position: lexmark, map: map,icon: "lock.png"});
-var lexmarkinfo = new google.maps.InfoWindow({content: 'Lexmark'});
-lexmarkmarker.addListener('click', function() {lexmarkinfo.open(map, lexmarkmarker);});
-// >>>>>
-// >>>>>
-var mellon = {lat:40.7071309,lng:-74.0140018};
-var mellonmarker = new google.maps.Marker({position: mellon, map: map,icon: "lock.png"});
-var melloninfo = new google.maps.InfoWindow({content: 'Mellon'});
-mellonmarker.addListener('click', function() {melloninfo.open(map, mellonmarker);});
-// >>>>>
-// >>>>>
-var disney = {lat:34.1568141,lng:-118.3272834};
-var disneymarker = new google.maps.Marker({position: disney, map: map,icon: "lock.png"});
-var disneyinfo = new google.maps.InfoWindow({content: 'Disney'});
-disneymarker.addListener('click', function() {disneyinfo.open(map, disneymarker);});
-// >>>>>
-// >>>>>
-var trans = {lat:41.879033,lng:-87.6437433};
-var transmarker = new google.maps.Marker({position: trans, map: map,icon: "lock.png"});
-var transinfo = new google.maps.InfoWindow({content: 'TransUnion'});
-transmarker.addListener('click', function() {transinfo.open(map, transmarker);});
-// >>>>>
-// >>>>>
-var travelport = {lat:33.8862634,lng:-84.4645877};
-var travelportmarker = new google.maps.Marker({position: travelport, map: map,icon: "lock.png"});
-var travelportinfo = new google.maps.InfoWindow({content: 'Travelport'});
-travelportmarker.addListener('click', function() {travelportinfo.open(map, travelportmarker);});
-// >>>>>
-// >>>>>
-var unionbank = {lat:37.7932972,lng:-122.4039367};
-var unionbankmarker = new google.maps.Marker({position: unionbank, map: map,icon: "lock.png"});
-var unionbankinfo = new google.maps.InfoWindow({content: 'Union Bank'});
-unionbankmarker.addListener('click', function() {unionbankinfo.open(map, unionbankmarker);});
-// >>>>>
-var west = {lat:41.2686779,lng:-96.0999749};
-var westmarker = new google.maps.Marker({position: west, map: map,icon: "lock.png"});
-var westinfo = new google.maps.InfoWindow({content: 'West Bank'});
-westmarker.addListener('click', function() {westinfo.open(map, westmarker);});// >>>>>
-
-// ------------------DIGITAL BUSINESS MODEL----------------------
-
-// >>>>>
-var banca = {lat:40.842847,lng:14.2468525};
-var bancamarker = new google.maps.Marker({position: banca, map: map,icon: "repo-forked.png"});
-var bancainfo = new google.maps.InfoWindow({content: 'Banca'});
-bancamarker.addListener('click', function() {bancainfo.open(map, bancamarker);});
-// >>>>>
-// >>>>>
-var bnp = {lat:48.8717555,lng:2.335482};
-var bnpmarker = new google.maps.Marker({position: bnp, map: map,icon: "repo-forked.png"});
-var bnpinfo = new google.maps.InfoWindow({content: 'BNP'});
-bnpmarker.addListener('click', function() {bnpinfo.open(map, bnpmarker);});
-// >>>>>
-// >>>>>
-var pbce = {lat:48.8195422,lng:2.4601244};
-var pbcemarker = new google.maps.Marker({position: pbce, map: map,icon: "repo-forked.png"});
-var pbceinfo = new google.maps.InfoWindow({content: 'PBCE'});
-pbcemarker.addListener('click', function() {pbceinfo.open(map, pbcemarker);});
-// >>>>>
-// >>>>>
-var orange = {lat:48.8364311,lng:2.3042558};
-var orangemarker = new google.maps.Marker({position: orange, map: map,icon: "repo-forked.png"});
-var orangeinfo = new google.maps.InfoWindow({content: 'Orange'});
-orangemarker.addListener('click', function() {orangeinfo.open(map, orangemarker);});
-// >>>>>
-// >>>>>
-var scotland = {lat:55.9347583,lng:-3.336824};
-var scotlandmarker = new google.maps.Marker({position: scotland, map: map,icon: "repo-forked.png"});
-var scotlandinfo = new google.maps.InfoWindow({content: 'Scotland'});
-scotlandmarker.addListener('click', function() {scotlandinfo.open(map, scotlandmarker);});
-// >>>>>
-// >>>>>
-var aig = {lat:40.7052639,lng:-74.0077088};
-var aigmarker = new google.maps.Marker({position: aig, map: map,icon: "repo-forked.png"});
-var aiginfo = new google.maps.InfoWindow({content: 'AIG'});
-aigmarker.addListener('click', function() {aiginfo.open(map, aigmarker);});
-// >>>>>
-// >>>>>
-var marker = new google.maps.Marker({position: markeramex, map: map,icon:'repo-forked.png'});
-// >>>>>
-// >>>>>
-var broadridge = {lat:40.7551912,lng:-73.6974465};
-var broadridgemarker = new google.maps.Marker({position: broadridge, map: map,icon: "repo-forked.png"});
-var broadridgeinfo = new google.maps.InfoWindow({content: 'Broad Ridge'});
-broadridgemarker.addListener('click', function() {broadridgeinfo.open(map, broadridgemarker);});// >>>>>
-// >>>>>
-var marker = new google.maps.Marker({position: cox, map: map,icon:'repo-forked.png'});
-// >>>>>
-// >>>>>
-var marker = new google.maps.Marker({position: experian, map: map,icon:'repo-forked.png'});
-// >>>>>
-// >>>>>
-var marker = new google.maps.Marker({position: firstdata, map: map,icon:'repo-forked.png'});
-// >>>>>
-// >>>>>
-var gm = {lat:42.3288351,lng:-83.0411523};
-var gmmarker = new google.maps.Marker({position: gm, map: map,icon: "repo-forked.png"});
-var gminfo = new google.maps.InfoWindow({content: 'GM'});
-gmmarker.addListener('click', function() {gminfo.open(map, gmmarker);});// >>>>>
-// >>>>>
-var verizon = {lat:40.7777947,lng:-74.0449733};
-var verizonmarker = new google.maps.Marker({position: verizon, map: map,icon: "repo-forked.png"});
-var verizoninfo = new google.maps.InfoWindow({content: 'Verizon'});
-verizonmarker.addListener('click', function() {verizoninfo.open(map, verizonmarker);});// >>>>>
+// // __________________BUILD FASTER APPS____________________
+//
+// var westpac = {lat:-33.8660344,lng:151.2016745};
+// var westpacmarker = new google.maps.Marker({position: westpac, map: map,icon: "device-mobile.png"});
+// var westpacinfo = new google.maps.InfoWindow({content: 'westpac'});
+// westpacmarker.addListener('click', function() {westpacinfo.open(map, westpacmarker);});
+//
+//
+//
+// var liberty = {lat:52.2775552,lng:4.7469156};
+// var libertymarker = new google.maps.Marker({position: liberty, map: map,icon: "device-mobile.png"});
+// var libertyinfo = new google.maps.InfoWindow({content: 'Liberty'});
+// libertymarker.addListener('click', function() {libertyinfo.open(map, libertymarker);});
+//
+//
+//
+// var experian = {lat:33.084906,lng:-96.6833492};
+// var experianmarker = new google.maps.Marker({position: experian, map: map,icon: "device-mobile.png"});
+// var experianinfo = new google.maps.InfoWindow({content: 'Experian'});
+// experianmarker.addListener('click', function() {experianinfo.open(map, experianmarker);});
+//
+// var firstdata = {lat:33.9055143,lng:-84.362277};
+// var firstdatamarker = new google.maps.Marker({position: firstdata, map: map,icon: "device-mobile.png"});
+// var firstdatainfo = new google.maps.InfoWindow({content: 'Firstdata'});
+// firstdatamarker.addListener('click', function() {firstdatainfo.open(map, firstdatamarker);});
+//
+// var ford = {lat:42.3174407,lng:-83.2116834};
+//                         //
+// var fordmarker = new google.maps.Marker({position: ford, map: map,icon: "device-mobile.png"});
+// var fordinfo = new google.maps.InfoWindow({content: 'Ford'});
+// fordmarker.addListener('click', function() {fordinfo.open(map, fordmarker);});
+//
+// var westernunion = {lat:39.5466043,lng:-104.8467667};
+//                         //
+// var westernunionmarker = new google.maps.Marker({position: westernunion, map: map,icon: "device-mobile.png"});
+// var westernunioninfo = new google.maps.InfoWindow({content: 'Western Union'});
+// westernunionmarker.addListener('click', function() {westernunioninfo.open(map, westernunionmarker);});
+//
+//
+// // ------------------SECURE ACCESS----------------------
+//
+// // >>>>>
+// var bnp = {lat:48.8717555,lng:2.335482};
+// var bnpmarker = new google.maps.Marker({position: bnp, map: map,icon: "lock.png"});
+// var bnpinfo = new google.maps.InfoWindow({content: 'BNP Paribas'});
+// bnpmarker.addListener('click', function() {bnpinfo.open(map, bnpmarker);});
+// // >>>>>
+// // >>>>>
+// var evry = {lat:59.8997876,lng:10.6255937};
+// var evrymarker = new google.maps.Marker({position: evry, map: map,icon: "lock.png"});
+// var evryinfo = new google.maps.InfoWindow({content: 'Evry'});
+// evrymarker.addListener('click', function() {evryinfo.open(map, evrymarker);});// >>>>>
+// // >>>>>
+// var iccrea = {lat:41.8317007,lng:12.5767312};
+// var iccreamarker = new google.maps.Marker({position: iccrea, map: map,icon: "lock.png"});
+// var iccreainfo = new google.maps.InfoWindow({content: 'Iccrea'});
+// iccreamarker.addListener('click', function() {iccreainfo.open(map, iccreamarker);});// >>>>>
+// // >>>>>
+// var ministro = {lat:41.8997054,lng:12.4925701};
+// var ministromarker = new google.maps.Marker({position: ministro, map: map,icon: "lock.png"});
+// var ministroinfo = new google.maps.InfoWindow({content: 'Ministro ITL'});
+// ministromarker.addListener('click', function() {ministroinfo.open(map, ministromarker);});
+// // >>>>>
+// // >>>>>
+// var telefonica = {lat:40.4200003,lng:-3.7040966};
+// var telefonicamarker = new google.maps.Marker({position: telefonica, map: map,icon: "lock.png"});
+// var telefonicainfo = new google.maps.InfoWindow({content: 'Telefonica'});
+// telefonicamarker.addListener('click', function() {telefonicainfo.open(map, telefonicamarker);});// >>>>>
+// // >>>>>
+// var cox = {lat:33.9234972,lng:-84.3520734};
+// var coxmarker = new google.maps.Marker({position: cox, map: map,icon: "lock.png"});
+// var coxinfo = new google.maps.InfoWindow({content: 'Cox'});
+// coxmarker.addListener('click', function() {coxinfo.open(map, coxmarker);});
+// // >>>>>
+// // >>>>>
+// var fedex = {lat:35.0397384,lng:-89.9920365};
+// var fedexmarker = new google.maps.Marker({position: fedex, map: map,icon: "lock.png"});
+// var fedexinfo = new google.maps.InfoWindow({content: 'Fedex'});
+// fedexmarker.addListener('click', function() {fedexinfo.open(map, fedexmarker);});
+// // >>>>>
+// // >>>>>
+// var marker = new google.maps.Marker({position: firstdata, map: map, icon: 'lock.png'});
+// // >>>>>
+// // >>>>>
+// var hms = {lat:32.8885184,lng:-96.974342};
+// var hmsmarker = new google.maps.Marker({position: hms, map: map,icon: "lock.png"});
+// var hmsinfo = new google.maps.InfoWindow({content: 'HMS'});
+// hmsmarker.addListener('click', function() {hmsinfo.open(map, hmsmarker);});
+// // >>>>>
+// // >>>>>
+// var lexmark = {lat:38.072593,lng:-84.4933229};
+// var lexmarkmarker = new google.maps.Marker({position: lexmark, map: map,icon: "lock.png"});
+// var lexmarkinfo = new google.maps.InfoWindow({content: 'Lexmark'});
+// lexmarkmarker.addListener('click', function() {lexmarkinfo.open(map, lexmarkmarker);});
+// // >>>>>
+// // >>>>>
+// var mellon = {lat:40.7071309,lng:-74.0140018};
+// var mellonmarker = new google.maps.Marker({position: mellon, map: map,icon: "lock.png"});
+// var melloninfo = new google.maps.InfoWindow({content: 'Mellon'});
+// mellonmarker.addListener('click', function() {melloninfo.open(map, mellonmarker);});
+// // >>>>>
+// // >>>>>
+// var disney = {lat:34.1568141,lng:-118.3272834};
+// var disneymarker = new google.maps.Marker({position: disney, map: map,icon: "lock.png"});
+// var disneyinfo = new google.maps.InfoWindow({content: 'Disney'});
+// disneymarker.addListener('click', function() {disneyinfo.open(map, disneymarker);});
+// // >>>>>
+// // >>>>>
+// var trans = {lat:41.879033,lng:-87.6437433};
+// var transmarker = new google.maps.Marker({position: trans, map: map,icon: "lock.png"});
+// var transinfo = new google.maps.InfoWindow({content: 'TransUnion'});
+// transmarker.addListener('click', function() {transinfo.open(map, transmarker);});
+// // >>>>>
+// // >>>>>
+// var travelport = {lat:33.8862634,lng:-84.4645877};
+// var travelportmarker = new google.maps.Marker({position: travelport, map: map,icon: "lock.png"});
+// var travelportinfo = new google.maps.InfoWindow({content: 'Travelport'});
+// travelportmarker.addListener('click', function() {travelportinfo.open(map, travelportmarker);});
+// // >>>>>
+// // >>>>>
+// var unionbank = {lat:37.7932972,lng:-122.4039367};
+// var unionbankmarker = new google.maps.Marker({position: unionbank, map: map,icon: "lock.png"});
+// var unionbankinfo = new google.maps.InfoWindow({content: 'Union Bank'});
+// unionbankmarker.addListener('click', function() {unionbankinfo.open(map, unionbankmarker);});
+// // >>>>>
+// var west = {lat:41.2686779,lng:-96.0999749};
+// var westmarker = new google.maps.Marker({position: west, map: map,icon: "lock.png"});
+// var westinfo = new google.maps.InfoWindow({content: 'West Bank'});
+// westmarker.addListener('click', function() {westinfo.open(map, westmarker);});// >>>>>
+//
+// // ------------------DIGITAL BUSINESS MODEL----------------------
+//
+// // >>>>>
+// var banca = {lat:40.842847,lng:14.2468525};
+// var bancamarker = new google.maps.Marker({position: banca, map: map,icon: "repo-forked.png"});
+// var bancainfo = new google.maps.InfoWindow({content: 'Banca'});
+// bancamarker.addListener('click', function() {bancainfo.open(map, bancamarker);});
+// // >>>>>
+// // >>>>>
+// var bnp = {lat:48.8717555,lng:2.335482};
+// var bnpmarker = new google.maps.Marker({position: bnp, map: map,icon: "repo-forked.png"});
+// var bnpinfo = new google.maps.InfoWindow({content: 'BNP'});
+// bnpmarker.addListener('click', function() {bnpinfo.open(map, bnpmarker);});
+// // >>>>>
+// // >>>>>
+// var pbce = {lat:48.8195422,lng:2.4601244};
+// var pbcemarker = new google.maps.Marker({position: pbce, map: map,icon: "repo-forked.png"});
+// var pbceinfo = new google.maps.InfoWindow({content: 'PBCE'});
+// pbcemarker.addListener('click', function() {pbceinfo.open(map, pbcemarker);});
+// // >>>>>
+// // >>>>>
+// var orange = {lat:48.8364311,lng:2.3042558};
+// var orangemarker = new google.maps.Marker({position: orange, map: map,icon: "repo-forked.png"});
+// var orangeinfo = new google.maps.InfoWindow({content: 'Orange'});
+// orangemarker.addListener('click', function() {orangeinfo.open(map, orangemarker);});
+// // >>>>>
+// // >>>>>
+// var scotland = {lat:55.9347583,lng:-3.336824};
+// var scotlandmarker = new google.maps.Marker({position: scotland, map: map,icon: "repo-forked.png"});
+// var scotlandinfo = new google.maps.InfoWindow({content: 'Scotland'});
+// scotlandmarker.addListener('click', function() {scotlandinfo.open(map, scotlandmarker);});
+// // >>>>>
+// // >>>>>
+// var aig = {lat:40.7052639,lng:-74.0077088};
+// var aigmarker = new google.maps.Marker({position: aig, map: map,icon: "repo-forked.png"});
+// var aiginfo = new google.maps.InfoWindow({content: 'AIG'});
+// aigmarker.addListener('click', function() {aiginfo.open(map, aigmarker);});
+// // >>>>>
+// // >>>>>
+// var marker = new google.maps.Marker({position: markeramex, map: map,icon:'repo-forked.png'});
+// // >>>>>
+// // >>>>>
+// var broadridge = {lat:40.7551912,lng:-73.6974465};
+// var broadridgemarker = new google.maps.Marker({position: broadridge, map: map,icon: "repo-forked.png"});
+// var broadridgeinfo = new google.maps.InfoWindow({content: 'Broad Ridge'});
+// broadridgemarker.addListener('click', function() {broadridgeinfo.open(map, broadridgemarker);});// >>>>>
+// // >>>>>
+// var marker = new google.maps.Marker({position: cox, map: map,icon:'repo-forked.png'});
+// // >>>>>
+// // >>>>>
+// var marker = new google.maps.Marker({position: experian, map: map,icon:'repo-forked.png'});
+// // >>>>>
+// // >>>>>
+// var marker = new google.maps.Marker({position: firstdata, map: map,icon:'repo-forked.png'});
+// // >>>>>
+// // >>>>>
+// var gm = {lat:42.3288351,lng:-83.0411523};
+// var gmmarker = new google.maps.Marker({position: gm, map: map,icon: "repo-forked.png"});
+// var gminfo = new google.maps.InfoWindow({content: 'GM'});
+// gmmarker.addListener('click', function() {gminfo.open(map, gmmarker);});// >>>>>
+// // >>>>>
+// var verizon = {lat:40.7777947,lng:-74.0449733};
+// var verizonmarker = new google.maps.Marker({position: verizon, map: map,icon: "repo-forked.png"});
+// var verizoninfo = new google.maps.InfoWindow({content: 'Verizon'});
+// verizonmarker.addListener('click', function() {verizoninfo.open(map, verizonmarker);});// >>>>>
